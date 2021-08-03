@@ -1,4 +1,4 @@
-# food-finder-react-native
+# Food Finder
 
 Food finder app built with React Native
 

@@ -9,6 +9,24 @@ Food finder app built with React Native
   - Restaurant name, star rating, and reviews will also be shown on the first screen
 - Once user taps on restaurant, it will go to details page and show images of food at restaurant
 
+## Try it out
+
+You can run this app by performing these steps:
+
+```
+$ git clone git@github.com:wix/react-native-calendars.git
+$ npm install
+```
+
+Then using any of the following scripts:
+
+```
+$ npm start // using expo app and scanning QR code
+$ npm android
+$ npm ios
+$ npm web
+```
+
 ## Links and resources
 
 - [Expo - Vector Icons](https://icons.expo.fyi/)

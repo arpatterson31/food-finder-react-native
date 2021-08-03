@@ -27,6 +27,10 @@ $ npm ios
 $ npm web
 ```
 
+**NOTE**: This app does require an API Key from Yelp. That will need to be placed in an .env file. You can get a API key from Yelp by going to the following link and signing up:
+
+- [yelp API key request](https://www.yelp.com/fusion)
+
 ## Links and resources
 
 - [Expo - Vector Icons](https://icons.expo.fyi/)

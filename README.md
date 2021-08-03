@@ -12,3 +12,4 @@ Food finder app built with React Native
 ## Links and resources
 
 - [Expo - Vector Icons](https://icons.expo.fyi/)
+- [YELP API for Restaurant calls](https://www.yelp.com/developers/documentation/v3/business_search)

@@ -1,11 +1,11 @@
 import React from 'react';
 import { View, Text, TextInput, StyleSheet } from 'react-native';
-import { FontAwesome } from '@expo/vector-icons';
 
-const RestaurantList = ({ title }) => {
+const RestaurantList = ({ title, results }) => {
   return (
     <View >
       <Text style={styles.titleStyle}>{title}</Text>
+      <Text>Results: {results.length}</Text>
     </View>
   );
 };

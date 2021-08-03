@@ -14,7 +14,7 @@ Food finder app built with React Native
 You can run this app by performing these steps:
 
 ```
-$ git clone git@github.com:wix/react-native-calendars.git
+$ git clone https://github.com/arpatterson31/food-finder-react-native.git
 $ npm install
 ```
 

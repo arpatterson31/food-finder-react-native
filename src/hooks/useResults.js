@@ -21,7 +21,7 @@ export default () => {
   };
 
   useEffect(() => {
-    searchAPI('pasta');
+    searchAPI('american');
   },[]);
 
   return [

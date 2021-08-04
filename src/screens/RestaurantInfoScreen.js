@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { View, Text, StyleSheet } from 'react-native';
 import yelp from '../api/yelp';
 
-const ResultsShowScreen = ({ navigation }) => {
+const RestaurantInfoScreen = ({ navigation }) => {
   const [result, setResult] = useState(null);
   const id = navigation.getParam('id');
 
@@ -25,4 +25,4 @@ const ResultsShowScreen = ({ navigation }) => {
 
 const styles = StyleSheet.create({});
 
-export default ResultsShowScreen;
+export default RestaurantInfoScreen;

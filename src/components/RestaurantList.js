@@ -2,7 +2,7 @@ import React from 'react';
 import { View, Text, StyleSheet, FlatList } from 'react-native';
 import RestaurantDetail from './RestaurantDetail';
 
-const RestaurantList = ({ title, results }) => {
+const RestaurantList = ({ title, results, navigation }) => {
   return (
     <View style={styles.container}>
       <Text style={styles.titleStyle}>{title}</Text>

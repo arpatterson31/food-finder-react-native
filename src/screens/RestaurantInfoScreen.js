@@ -22,10 +22,10 @@ const RestaurantInfoScreen = ({ navigation }) => {
   return (
     <View>
       <Text style={styles.headerStyle}>{result.name}</Text>
-      <Text>{result.display_phone}</Text>
-      <Text>{result.location.address1}</Text>
-      <Text>{result.location.city}, {result.location.state}  {result.location.zip_code}</Text>
-      <Text>{result.price}</Text>
+      <Text style={styles.addressStyle}>{result.display_phone}</Text>
+      <Text style={styles.addressStyle}>{result.location.address1}</Text>
+      <Text style={styles.addressStyle}>{result.location.city}, {result.location.state}  {result.location.zip_code}</Text>
+      <Text style={styles.priceStyle}>{result.price}</Text>
       <FlatList
         data={result.photos}
         keyExtractor={(photo) => photo}
@@ -41,10 +41,21 @@ const RestaurantInfoScreen = ({ navigation }) => {
 const styles = StyleSheet.create({
   imageStyle: {
     height: 200,
-    width: 300
+    width: 300,
+    marginLeft: 15,
+    marginBottom: 10
   },
   headerStyle: {
-    fontSize: 18
+    fontSize: 18,
+    fontWeight: 'bold',
+    marginLeft: 15,
+  },
+  addressStyle: {
+    marginLeft: 15
+  },
+  priceStyle: {
+    marginLeft: 15,
+    fontWeight: 'bold'
   }
 });
 

@@ -21,7 +21,10 @@ const RestaurantInfoScreen = ({ navigation }) => {
 
   return (
     <View>
-      <Text>{result.name}</Text>
+      <Text style={styles.headerStyle}>{result.name}</Text>
+      <Text>{result.display_phone}</Text>
+      <Text>{result.location.address1}</Text>
+      <Text>{result.location.city}, {result.location.state}  {result.location.zip_code}</Text>
       <FlatList
         data={result.photos}
         keyExtractor={(photo) => photo}
@@ -38,6 +41,9 @@ const styles = StyleSheet.create({
   imageStyle: {
     height: 200,
     width: 300
+  },
+  headerStyle: {
+    fontSize: 18
   }
 });
 

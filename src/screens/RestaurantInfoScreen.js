@@ -25,6 +25,7 @@ const RestaurantInfoScreen = ({ navigation }) => {
       <Text>{result.display_phone}</Text>
       <Text>{result.location.address1}</Text>
       <Text>{result.location.city}, {result.location.state}  {result.location.zip_code}</Text>
+      <Text>{result.price}</Text>
       <FlatList
         data={result.photos}
         keyExtractor={(photo) => photo}
